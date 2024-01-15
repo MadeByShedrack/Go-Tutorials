@@ -1,6 +1,8 @@
 package main
 
-import "github.com/MadeByShedrack/go-tutorials/basics"
+import (
+	"github.com/MadeByShedrack/go-tutorials/tourofgo"
+)
 
 func main() {
 	// basics.Basics()
@@ -10,5 +12,6 @@ func main() {
 	// basics.Loops()
 	// basics.Examples()
 	// basics.Structure()
-	basics.Pointers()
+	// basics.Pointers()
+	tourofgo.MyPackage()
 }
